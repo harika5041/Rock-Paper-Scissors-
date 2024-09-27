@@ -7,9 +7,7 @@ This is a simple yet engaging Rock-Paper-Scissors game that allows you to challe
 - Scissors cuts Paper
 - Paper covers Rock
 
-## Demo
 
-[Live Demo](link-to-your-live-demo)
 
 ## Features
 
@@ -20,7 +18,17 @@ This is a simple yet engaging Rock-Paper-Scissors game that allows you to challe
 
 ## Technologies Used
 
-- **HTML**: Structure of the game.
-- **CSS**: Styling and layout.
-- **JavaScript**: Game logic and interactivity.
-
+### HTML:
+   **Structure**:
+   The game is built using standard HTML5 elements to create a structured and semantic layout. The HTML file contains the main components of the game, including buttons for user choices and areas to display the results.
+### CSS:
+ **Styling**: CSS is used to enhance the visual appeal of the game. It includes:
+Responsive Design: Ensures that the game looks good on various screen sizes.
+Styling Elements: Buttons are styled with hover effects for better user interaction.
+Layout: Centering the game container and adding padding for a clean look.
+### JavaScript
+**Game Logic**: JavaScript is utilized to handle the interactive aspects of the game:
+Event Listeners: Detects user input when a button is clicked.
+Random Choice Generation: Generates a random choice for the computer to simulate its decision-making.
+Winner Determination: Compares the user’s choice with the computer’s to declare the winner based on the game’s rules.
+Dynamic Updates: Updates the display in real-time to show the user's choice, the computer's choice, and the result of the game.
